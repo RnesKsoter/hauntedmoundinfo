@@ -1,0 +1,201 @@
+body {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+footer{
+    margin-top: 5em;
+    color: grey;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+main div {
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+nav ul {
+    background-color: #500000;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    list-style: none;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    font-size: x-large;
+    align-items: end;
+    margin-right: 2em;
+    padding: 1em;
+    justify-content: center;
+}
+
+footer a {
+    color: red font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main a {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+
+}
+
+.home {
+    border-bottom: solid white;
+
+}
+
+.artists {
+    border-bottom: solid white;
+}
+
+.history {
+    border-bottom: solid white;
+}
+
+.albums {
+    border-bottom: solid white;
+}
+
+.tour-paragraph {
+    margin-bottom: 8em;
+}
+
+section {
+    display: flex;
+    background-color: #1e1e1e;
+    padding-top: em;
+    margin-bottom: 1.5em;
+    border-radius: 4em;
+    border-style: double;
+    justify-content: space-between;
+}
+
+main img {
+    width: 18vw;
+}
+
+section img {
+    width: 20vw;
+    height: 20vw;
+    padding-left: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+
+}
+
+header ul li img {
+    height: 3vw;
+    width: 3vw;
+}
+
+section div {
+    text-align: left;
+    margin-left: 1.5em;
+
+}
+
+section div {
+    display: flex;
+}
+
+section div div {
+    display: flex;
+    flex-direction: column;
+}
+section div div div {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    max-width: 80%;
+}
+
+article img:nth-of-type(4){
+    width: 35vw;
+}
+
+p a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em
+}
+
+footer a:visited {
+    color: brown;
+}
+
+main a:visited{
+    color: brown;
+}
+
+
+div div img {
+    width: 3vw;
+    height: 3vw;
+    padding: 1em;
+}
+
+div div img:hover {
+    background-color: #500000;
+    transition: all 250ms ease-in-out;
+    border-radius: 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #1e1e1e;
+    transition: all 250ms ease;
+
+}
+
+nav ul li img:nth-of-type(3):hover {
+    background-color: #500000;
+}
+nav ul li a:nth-of-type(3):hover {
+    background-color: #500000;
+}
+
+main li {
+    list-style: none;
+}
