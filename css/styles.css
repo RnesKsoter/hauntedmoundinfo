@@ -69,15 +69,15 @@ nav ul li {
     justify-content: center;
 }
 
-footer a {
-    color: red font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+footer a{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 main a {
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5em;
-
 }
 
 .home {
@@ -152,10 +152,6 @@ article {
     max-width: 80%;
 }
 
-article img:nth-of-type(4){
-    width: 35vw;
-}
-
 p a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1em
@@ -182,18 +178,13 @@ div div img:hover {
     border-radius: 1.5em;
 }
 
-nav ul li a:hover {
+/* Hulp gehad van Docent met de juiste items selecteren. */
+nav ul li:nth-of-type(1) a:hover,nav ul li:nth-of-type(2) a:hover, nav ul li:nth-of-type(4) a:hover, nav ul li:nth-of-type(5) a:hover{
     background-color: white;
     color: #1e1e1e;
-    transition: all 250ms ease;
+    transition: all 250ms ease-in-out;
+    border-radius: 0.2em;
 
-}
-
-nav ul li img:nth-of-type(3):hover {
-    background-color: #500000;
-}
-nav ul li a:nth-of-type(3):hover {
-    background-color: #500000;
 }
 
 main li {
