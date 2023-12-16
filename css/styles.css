@@ -104,7 +104,6 @@ main a {
 section {
     display: flex;
     background-color: #1e1e1e;
-    padding-top: em;
     margin-bottom: 1.5em;
     border-radius: 4em;
     border-style: double;
@@ -121,7 +120,6 @@ section img {
     padding-left: 2em;
     padding-top: 3.5em;
     padding-bottom: 3.5em;
-
 }
 
 header ul li img {
@@ -132,7 +130,6 @@ header ul li img {
 section div {
     text-align: left;
     margin-left: 1.5em;
-
 }
 
 section div {
